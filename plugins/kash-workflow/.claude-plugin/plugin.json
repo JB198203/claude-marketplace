@@ -1,0 +1,7 @@
+{
+  "name": "kash-workflow",
+  "description": "Façon de travailler : livrer par PR (workflow-pr), se faire cuisiner sur un plan, débogage méthodique, vérifier avant de dire « fini », mémoire de projet, réponses courtes.",
+  "author": {
+    "name": "JB198203"
+  }
+}

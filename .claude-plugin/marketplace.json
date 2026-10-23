@@ -1,5 +1,82 @@
 {
   "name": "kash-plugins",
-  "owner": { "name": "Kash" },
-  "plugins": []
+  "description": "Les lots de skills de KASHING / JB198203, un lot par type de tâche.",
+  "owner": {
+    "name": "JB198203"
+  },
+  "plugins": [
+    {
+      "name": "kash-workflow",
+      "source": "./plugins/kash-workflow",
+      "description": "Façon de travailler : livrer par PR (workflow-pr), se faire cuisiner sur un plan, débogage méthodique, vérifier avant de dire « fini », mémoire de projet, réponses courtes."
+    },
+    {
+      "name": "kash-web",
+      "source": "./plugins/kash-web",
+      "description": "Sites web : audits SEO (Lighthouse, technique, IA), règles d'interface, tests d'app web, navigateur piloté, veille Awwwards, aspiration de vieux sites."
+    },
+    {
+      "name": "kash-supabase",
+      "source": "./plugins/kash-supabase",
+      "description": "Supabase : bonnes pratiques Postgres, RLS, auth et stockage."
+    },
+    {
+      "name": "kash-python",
+      "source": "./plugins/kash-python",
+      "description": "Python : patterns, tests, sécurité des agents de trading LLM."
+    },
+    {
+      "name": "kash-instagram",
+      "source": "./plugins/kash-instagram",
+      "description": "Instagram : plan éditorial, Reels, carrousels, stories, légendes, réponses et DM, audit de compte, sans ton IA."
+    },
+    {
+      "name": "kash-marketing",
+      "source": "./plugins/kash-marketing",
+      "description": "Marketing : stratégie de contenus et tarifs."
+    },
+    {
+      "name": "kash-founder",
+      "source": "./plugins/kash-founder",
+      "description": "Piloter un projet comme un fondateur : plan, offre, prix, marque, lancement, concurrents, finances, conseil."
+    },
+    {
+      "name": "kash-media",
+      "source": "./plugins/kash-media",
+      "description": "Visuels : affiches PNG/PDF, schémas soignés, résumé de vidéos YouTube."
+    },
+    {
+      "name": "impeccable",
+      "source": {
+        "source": "github",
+        "repo": "pbakaus/impeccable"
+      },
+      "description": "Design d'interface : critique, audit, polish, harden, typographie, mise en page (pbakaus, Apache-2.0)."
+    },
+    {
+      "name": "ponytail",
+      "source": {
+        "source": "github",
+        "repo": "DietrichGebert/ponytail"
+      },
+      "description": "Le moins de code possible : stdlib et natif d'abord, chasse à la sur-ingénierie (DietrichGebert, MIT)."
+    },
+    {
+      "name": "ux-ui-agent-skills",
+      "source": {
+        "source": "github",
+        "repo": "plugin87/ux-ui-agent-skills"
+      },
+      "description": "Kit design system : tokens DTCG, composants, accessibilité WCAG, audits (plugin87)."
+    },
+    {
+      "name": "frontend-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "anthropics/claude-plugins-official",
+        "path": "plugins/frontend-design"
+      },
+      "description": "Interfaces avec une vraie direction visuelle, loin des gabarits (Anthropic)."
+    }
+  ]
 }
