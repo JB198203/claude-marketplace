@@ -1,0 +1,7 @@
+{
+  "name": "kash-supabase",
+  "description": "Supabase : bonnes pratiques Postgres, RLS, auth et stockage.",
+  "author": {
+    "name": "JB198203"
+  }
+}

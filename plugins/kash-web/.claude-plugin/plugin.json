@@ -1,0 +1,7 @@
+{
+  "name": "kash-web",
+  "description": "Sites web : audits SEO (Lighthouse, technique, IA), règles d'interface, tests d'app web, navigateur piloté, veille Awwwards, aspiration de vieux sites.",
+  "author": {
+    "name": "JB198203"
+  }
+}
